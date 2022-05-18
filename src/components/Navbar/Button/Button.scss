@@ -1,0 +1,54 @@
+$primary: #fff;
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn--primary {
+  background-color: $primary;
+  color: #242424;
+  border: 1px solid $primary;
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: $primary;
+  padding: 8px 20px;
+  border: 1px solid $primary;
+  transition: all 0.3s ease-out;
+}
+
+.btn--mobile {
+  text-align: center;
+  border-radius: 4px;
+  width: 80%;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: transparent;
+  color: $primary;
+  padding: 14px 20px;
+  border: 1px solid $primary;
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium:hover,
+.btn--mobile:hover {
+  transition: all 0.3s ease-out;
+  background: $primary;
+  color: #242424;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+}

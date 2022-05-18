@@ -1,0 +1,49 @@
+.github__section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5em;
+
+  &_results {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    padding: 2em 4em;
+    background: #ffffff;
+    box-shadow: 0px 6px 22px rgba(181, 181, 181, 0.2);
+    border-radius: 6px;
+  }
+
+  &_user {
+    &_data {
+      display: flex;
+
+      &_avatar {
+        height: 100px;
+        border-radius: 50%;
+      }
+
+      &_login {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 44px 2em;
+      }
+    }
+  }
+
+  &_repos {
+    &_repo-name {
+      font-weight: bold;
+      padding: 1em 0;
+    }
+
+    &_repo-commit {
+      font-size: 12px;
+      padding: 3px 0;
+      padding-left: 2em;
+    }
+    &_repo-commit:nth-child(2n) {
+      color: #11a5f4;
+    }
+  }
+}

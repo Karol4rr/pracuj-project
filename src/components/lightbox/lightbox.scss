@@ -1,0 +1,18 @@
+.lightbox {
+  background-color: #e1f2f8;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 12px;
+  display: flex;
+  align-items: flex-start;
+  color: #1b202c;
+  line-height: 1.4;
+
+  &.lightbox_big_text span {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  span {
+    padding-top: 3px;
+  }
+}
